@@ -10,15 +10,14 @@ System.out.println("Enter number above 9");
 System.exit(0);
 }
 int num=0;
-int counter=2;
+int counter=1;
 while(counter>0){
-num+=n%10;
 n/=10;
+num=((n%10)+(n/1000));
 counter--;
 }
 System.out.println(num);
 
 }
 
-public static int sumDigit()
 }
